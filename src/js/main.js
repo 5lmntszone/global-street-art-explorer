@@ -73,17 +73,24 @@ function renderGallery(artworks) {
       </div>
     `;
 
+    card.addEventListener('click', () => {
+      const marker = markerMap.get(art.id);
+      if (marker) {
+        highlightArtwork(art.id);
+        marker.togglePopup();
+        marker._map.flyTo({ center: marker.getLngLat(), zoom: 10 });
+      }
+    });
+
     galleryGrid.appendChild(card);
   });
 }
 
 function highlightArtwork(id) {
-  // Remove previous highlights
   document.querySelectorAll('.gallery-item').forEach((item) =>
     item.classList.remove('highlight')
   );
 
-  // Highlight and scroll to the selected item
   const item = document.querySelector(`.gallery-item[data-id="${id}"]`);
   if (item) {
     item.classList.add('highlight');
