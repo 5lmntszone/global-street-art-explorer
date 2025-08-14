@@ -95,6 +95,8 @@ main {
   border: 1px solid var(--accent-pink);
 }
 
+/* GALLERY */
+
 #gallery-section {
   padding: 1rem;
 }
@@ -127,6 +129,15 @@ main {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.gallery-item .info {
+  padding: 0.5rem;
+}
+
+.gallery-item h3 {
+  margin: 0.5rem 0 0.2rem;
+  color: var(--accent-yellow);
 }
 
 footer {

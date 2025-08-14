@@ -49,4 +49,33 @@ async function initMap() {
   }
 }
 
+async function loadGallery() {
+  try {
+    const res = await fetch('data/artworks.json');
+    const artworks = await res.json();
+
+    const galleryGrid = document.getElementById('gallery-grid');
+    galleryGrid.innerHTML = '';
+
+    artworks.forEach((art) => {
+      const card = document.createElement('div');
+      card.classList.add('gallery-item');
+
+      card.innerHTML = `
+        <img src="${art.image_url}" alt="Artwork by ${art.artist}" />
+        <div class="info">
+          <h3>${art.title}</h3>
+          <p><strong>Artist:</strong> ${art.artist}</p>
+          <p><strong>City:</strong> ${art.location.city}</p>
+        </div>
+      `;
+
+      galleryGrid.appendChild(card);
+    });
+  } catch (err) {
+    console.error('Error loading gallery:', err);
+  }
+}
+
 initMap();
+loadGallery();
