@@ -13,7 +13,7 @@ async function initMap() {
   map.addControl(new mapboxgl.NavigationControl());
 
   try {
-    const res = await fetch('/data/artworks.json');
+    const res = await fetch('data/artworks.json');
     const artworks = await res.json();
 
     artworks.forEach((art) => {
