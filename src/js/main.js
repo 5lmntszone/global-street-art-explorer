@@ -1,6 +1,6 @@
 import mapboxgl from 'mapbox-gl';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiYmxpdHpibGl0enkiLCJhIjoiY21lYmRzdGJlMTJqMjJrcXg5ODZubzM1aiJ9.rlTnuvwtOByjWqtdeG4LxA';
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
 let allArtworks = []; 
 let markerMap = new Map(); 
@@ -9,7 +9,7 @@ async function initMap() {
   const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v11',
-    center: [13.405, 52.52],
+    center: [19.14, 51.91],
     zoom: 2.5,
   });
 
