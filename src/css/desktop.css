@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 160px); 
+  }
+
+  #map-section,
+  #gallery-section {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  #map {
+    height: 500px;
+    border-right: 2px solid var(--accent-turquoise);
+    border-bottom: none;
+  }
+
+  #gallery-section {
+    padding: 2rem;
+  }
+
+  #gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  #gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

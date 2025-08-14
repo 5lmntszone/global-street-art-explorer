@@ -1,0 +1,114 @@
+[
+  {
+    "id": "pl001",
+    "title": "Koronkowy Mural",
+    "artist": "NeSpoon",
+    "location": {
+      "city": "Warsaw",
+      "country": "Polska",
+      "lat": 52.2297,
+      "lng": 21.0122
+    },
+    "tags": ["mural", "lace", "abstract"],
+    "date_created": "2022-08-14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Nespoon_mural.jpg/800px-Nespoon_mural.jpg"
+  },
+  {
+    "id": "ber002",
+    "title": "Urban Jungle",
+    "artist": "Jane Doe",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lng": 13.405
+    },
+    "tags": ["graffiti", "animals", "colorful"],
+    "date_created": "2023-05-12",
+    "image_url": "https://images.unsplash.com/photo-1581091870633-dbb64acb5c4b"
+  },
+  {
+    "id": "nyc003",
+    "title": "Subway Dreams",
+    "artist": "Banksy",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "tags": ["stencil", "satire", "black-and-white"],
+    "date_created": "2019-10-10",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Banksy_NYC_2013.jpg/800px-Banksy_NYC_2013.jpg"
+  },
+  {
+    "id": "br004",
+    "title": "Favela Colors",
+    "artist": "Eduardo Kobra",
+    "location": {
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9068,
+      "lng": -43.1729
+    },
+    "tags": ["mural", "colorful", "portrait"],
+    "date_created": "2021-03-22",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kobra_-_Rio_de_Janeiro.jpg"
+  },
+  {
+    "id": "par005",
+    "title": "Pixel Invader",
+    "artist": "Invader",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "tags": ["mosaic", "retro", "game"],
+    "date_created": "2018-06-15",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Space_invader_paris.jpg/800px-Space_invader_paris.jpg"
+  },
+  {
+    "id": "mel006",
+    "title": "Laneway Letters",
+    "artist": "Adnate",
+    "location": {
+      "city": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8136,
+      "lng": 144.9631
+    },
+    "tags": ["lettering", "portrait", "aboriginal"],
+    "date_created": "2020-11-08",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Adnate_melbourne.jpg"
+  },
+  {
+    "id": "tok007",
+    "title": "Neo Tokyo",
+    "artist": "Lady Aiko",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6895,
+      "lng": 139.6917
+    },
+    "tags": ["stencil", "pop-art", "female"],
+    "date_created": "2024-01-20",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lady_Aiko_street_art.jpg"
+  },
+  {
+    "id": "cap008",
+    "title": "Cape Hope",
+    "artist": "Faith47",
+    "location": {
+      "city": "Cape Town",
+      "country": "South Africa",
+      "lat": -33.9249,
+      "lng": 18.4241
+    },
+    "tags": ["mural", "spiritual", "monochrome"],
+    "date_created": "2023-09-05",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Faith47_CapeTown.jpg"
+  }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Street Art Explorer</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/main.css" />
+  <link rel="stylesheet" href="src/css/desktop.css"/>
+</head>
+<body>
+  <header>
+    <h1>Street Art Explorer</h1>
+  </header>
+
+  <nav id="filter-bar">
+    <button id="open-filters">Filter</button>
+    <input type="text" id="search" placeholder="Search by city..." />
+  </nav>
+
+  <main>
+    <section id="map-section">
+      <div id="map"></div>
+    </section>
+
+    <section id="gallery-section">
+      <h2>Gallery</h2>
+      <div id="gallery-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Street Art Explorer</p>
+  </footer>
+
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
