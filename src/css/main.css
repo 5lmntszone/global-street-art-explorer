@@ -140,6 +140,12 @@ main {
   color: var(--accent-yellow);
 }
 
+.gallery-item.highlight {
+  border: 3px solid #00f0b5;
+  box-shadow: 0 0 10px #00f0b5;
+  scroll-margin-top: 80px;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
